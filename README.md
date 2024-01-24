@@ -1,2 +1,77 @@
-# Email-Validator-EV
-# Email Validator EV  Validate emails with ZeroBounce, Abstract, and Proofy APIs. Configurable, logs results, supports bulk validation. User-friendly CLI.  Contact: Demonofinternet0@gmail.com  Donations: - Bitcoin: 1PhgZqoWxr33mTSGefB1dW3QhjLVrG4MCV - USDT TRON(TRC20): TCXRkkQ27xdHUxTnEM1WJdneJfHtU4vpPo  [@Doimous](https://t.me/Doimous)
+# Email Validator EV - Version 1.0
+
+![Cat Art](cat_art.png)
+
+**Support:** Demonofinternet0@gmail.com  
+**Youtube:** DemonofInternet
+
+## Description
+Email Validator EV is a script that allows you to validate email addresses using different validation services.
+
+## Setup
+
+### Prerequisites
+Make sure you have the following installed on your machine:
+
+- Python (version 3.6 or higher)
+
+### Installation
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/your-username/email-validator-ev.git
+    cd email-validator-ev
+    ```
+
+2. Install dependencies:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+### Configuration
+Before using the script, you need to configure your API keys for the validation services. Follow these steps:
+
+1. Open the script (`email_validator_ev.py`) in a text editor.
+
+2. Find the section with the default API keys:
+
+    ```python
+    ZEROBOUNCE_API_KEY = "25a084ff87d04f04b59ec391d0772e0b"
+    ABSTRACT_API_KEY = "508d6a5d8dd94bc998c8f745e0640261"
+    PROOFY_API_KEY = "ORReeSFspsJh4EJzcGIWBS7P"
+    PROOFY_USER_ID = "56222"
+    ```
+
+3. Replace the default API keys with your own keys.
+
+4. Save the file.
+
+## Usage
+
+### Single Email Validation
+1. Run the script:
+
+    ```bash
+    python email_validator_ev.py
+    ```
+
+2. Choose the validation service and select "Single Email Validation."
+
+3. Enter the email address when prompted.
+
+### Bulk Email Validation
+1. Prepare a text file with one email address per line.
+
+2. Run the script:
+
+    ```bash
+    python email_validator_ev.py
+    ```
+
+3. Choose the validation service and select "Bulk Email Validation."
+
+4. Enter the path to the file when prompted.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
