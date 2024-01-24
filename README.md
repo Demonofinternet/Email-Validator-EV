@@ -37,10 +37,10 @@ Before using the script, you need to configure your API keys for the validation 
 2. Find the section with the default API keys:
 
     ```python
-    ZEROBOUNCE_API_KEY = "25a084ff87d04f04b59ec391d0772e0b"
-    ABSTRACT_API_KEY = "508d6a5d8dd94bc998c8f745e0640261"
-    PROOFY_API_KEY = "ORReeSFspsJh4EJzcGIWBS7P"
-    PROOFY_USER_ID = "56222"
+    ZEROBOUNCE_API_KEY = "Paste_Your_Api_Key_Here"
+    ABSTRACT_API_KEY = "Paste_Your_Api_Key_Here"
+    PROOFY_API_KEY = "Paste_Your_Api_Key_Here"
+    PROOFY_USER_ID = "Paste_Your_Api_Key_Here"
     ```
 
 3. Replace the default API keys with your own keys.
