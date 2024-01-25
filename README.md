@@ -1,4 +1,7 @@
 # Email Validator EV - Version 1.0
+ /\_/\\  
+ ( o.o ) 
+  > ^ <
 
 ![Cat Art](cat_art.png)
 
